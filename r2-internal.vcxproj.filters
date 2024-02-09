@@ -1,0 +1,183 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="R2SDK">
+      <UniqueIdentifier>{4235d5a1-a041-4e07-9131-e79e4456d460}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Hooks">
+      <UniqueIdentifier>{226a0ede-6918-4a0d-9711-18fd93d640f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Features">
+      <UniqueIdentifier>{4ad119ba-e59a-41fb-8f6e-a85ed9f9f276}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utilities">
+      <UniqueIdentifier>{eb2566f7-d670-4675-9a33-1de4b3a6e5a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utilities\MinHook">
+      <UniqueIdentifier>{bfafaae6-9974-4ae9-91fe-e045c372e317}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utilities\MinHook\hde">
+      <UniqueIdentifier>{7c94cb61-4b99-4dd1-a455-d1413ecdc681}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Renderer">
+      <UniqueIdentifier>{467cae37-c2c6-4708-b12b-cb426dda1ace}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Include.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Utilities\LazyImporter.hpp">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Utilities\Memory.hpp">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Utilities\Utilities.hpp">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="R2SDK\CBaseEntity.hpp">
+      <Filter>R2SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="R2SDK\CClientState.hpp">
+      <Filter>R2SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="R2SDK\CEngineTrace.hpp">
+      <Filter>R2SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="R2SDK\CEngineVGui.hpp">
+      <Filter>R2SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="R2SDK\CGlobalVarsBase.hpp">
+      <Filter>R2SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="R2SDK\CHLClient.hpp">
+      <Filter>R2SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="R2SDK\CInput.hpp">
+      <Filter>R2SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="R2SDK\CInputSystem.hpp">
+      <Filter>R2SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="R2SDK\CMatSystemSurface.hpp">
+      <Filter>R2SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="R2SDK\CUserCmd.hpp">
+      <Filter>R2SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="R2SDK\Enum.hpp">
+      <Filter>R2SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="R2SDK\Math.hpp">
+      <Filter>R2SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="R2SDK\Matrix.hpp">
+      <Filter>R2SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="R2SDK\R2SDK.hpp">
+      <Filter>R2SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="R2SDK\Vector.hpp">
+      <Filter>R2SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Utilities\MinHook\buffer.h">
+      <Filter>Utilities\MinHook</Filter>
+    </ClInclude>
+    <ClInclude Include="Utilities\MinHook\MinHook.h">
+      <Filter>Utilities\MinHook</Filter>
+    </ClInclude>
+    <ClInclude Include="Utilities\MinHook\trampoline.h">
+      <Filter>Utilities\MinHook</Filter>
+    </ClInclude>
+    <ClInclude Include="Utilities\MinHook\hde\hde32.h">
+      <Filter>Utilities\MinHook\hde</Filter>
+    </ClInclude>
+    <ClInclude Include="Utilities\MinHook\hde\hde64.h">
+      <Filter>Utilities\MinHook\hde</Filter>
+    </ClInclude>
+    <ClInclude Include="Utilities\MinHook\hde\pstdint.h">
+      <Filter>Utilities\MinHook\hde</Filter>
+    </ClInclude>
+    <ClInclude Include="Utilities\MinHook\hde\table32.h">
+      <Filter>Utilities\MinHook\hde</Filter>
+    </ClInclude>
+    <ClInclude Include="Utilities\MinHook\hde\table64.h">
+      <Filter>Utilities\MinHook\hde</Filter>
+    </ClInclude>
+    <ClInclude Include="Hooks\CreateMove.hpp">
+      <Filter>Hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="Hooks\Screenshot.hpp">
+      <Filter>Hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="Hooks\Paint.hpp">
+      <Filter>Hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="Features\Aim.hpp">
+      <Filter>Features</Filter>
+    </ClInclude>
+    <ClInclude Include="Features\ESP.hpp">
+      <Filter>Features</Filter>
+    </ClInclude>
+    <ClInclude Include="Features\Vars.hpp">
+      <Filter>Features</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer\Renderer.hpp">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Entry.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Utilities\Utilities.cpp">
+      <Filter>Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="Utilities\MinHook\buffer.c">
+      <Filter>Utilities\MinHook</Filter>
+    </ClCompile>
+    <ClCompile Include="Utilities\MinHook\hook.c">
+      <Filter>Utilities\MinHook</Filter>
+    </ClCompile>
+    <ClCompile Include="Utilities\MinHook\trampoline.c">
+      <Filter>Utilities\MinHook</Filter>
+    </ClCompile>
+    <ClCompile Include="Utilities\MinHook\hde\hde32.c">
+      <Filter>Utilities\MinHook\hde</Filter>
+    </ClCompile>
+    <ClCompile Include="Utilities\MinHook\hde\hde64.c">
+      <Filter>Utilities\MinHook\hde</Filter>
+    </ClCompile>
+    <ClCompile Include="Hooks\CreateMove.cpp">
+      <Filter>Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="Hooks\Screenshot.cpp">
+      <Filter>Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="Hooks\Paint.cpp">
+      <Filter>Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="Features\Aim.cpp">
+      <Filter>Features</Filter>
+    </ClCompile>
+    <ClCompile Include="Features\ESP.cpp">
+      <Filter>Features</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer\Renderer.cpp">
+      <Filter>Renderer</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

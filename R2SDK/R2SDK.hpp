@@ -1,0 +1,15 @@
+#pragma once
+
+#include "Enum.hpp"
+#include "Vector.hpp"
+#include "Matrix.hpp"
+#include "Math.hpp"
+#include "CGlobalVarsBase.hpp"
+#include "CBaseEntity.hpp"
+#include "CInput.hpp"
+#include "CHLClient.hpp"
+#include "CMatSystemSurface.hpp"
+#include "CEngineVGui.hpp"
+#include "CEngineTrace.hpp"
+#include "CInputSystem.hpp"
+#include "CClientState.hpp"
